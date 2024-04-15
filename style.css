@@ -1,0 +1,447 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* css for navber */
+.Portfolio-sections{
+	height: 600px;
+	width: 100%;
+	background-color: lavenderblush;
+	margin-bottom: 30px;
+
+}
+
+
+.navigation-bar{
+	position: fixed;
+	
+	width: 100%;
+	background-color:transparent;
+	
+  backdrop-filter: blur(10px);
+	z-index: 1;
+}
+
+
+
+.Portfolio-sections h1{
+	margin-top: 30px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.main-container{
+	position:relative;
+	top: 50px;
+  text-align: center;
+}
+
+.brand{
+	font-size:30px;
+	font-family: sans-serif  ;
+	font-variant: small-caps;
+	color: rgb(254, 36, 40) ;
+}
+.navmenu{
+	color: purple;
+	font-size: 20px;
+	font-family:sans-serif ;
+	font-weight: bolder;
+	padding-left: 25px;
+  text-align: center;
+
+}
+.navmenu:hover{
+	text-decoration: underline 2px solid black;
+	text-underline-offset: 6px;
+}
+.scale-down-center {
+	color: purple;
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  /* css for home section */
+  #home{
+  	height: 350px;
+  	background-image: url("https://devlops.io/wp-content/uploads/2021/08/untitled-design-13-1_optimized-2048x2048-1-1536x1536.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: 75% 65%;
+  	padding-top:10px ;
+      	
+
+  }
+
+
+#home-info{
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.info{
+    font-weight: bolder;
+    color: purple;
+    font-size: 25px;
+}
+.designation{
+    color: purple;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.myname{
+    font-size: 35px;
+    color: navy;
+}
+.rsmbtn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+    transition-duration: 1s;
+}
+.rsmbtn:hover{
+    background-color: white;
+    color: purple;
+    border: 3px solid violet;
+   
+    transform: scale(1.1);
+}
+.role{
+	color: purple;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+
+/* css for about section */
+
+
+.about-section{
+	height: 500px;
+	width: 100%;
+	padding: 5px;
+	/* background-color:whitesmoke;  */
+	/* border:none ; */
+  
+  background-color: lavenderblush;
+}
+.aboutmain{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-top: 50px;
+  
+}
+
+
+.aboutmain div {
+	height: 500px;
+	width: 50%;
+}
+.minion{
+	margin-top: 15px;
+	margin-left: 90px;
+	height: 250px;
+	width: 400px;
+	animation-duration: 4s;
+	animation-name: zoom;
+	animation-iteration-count: 1;
+}
+@keyframes zoom{
+	100%{
+		transform: scale(1.2);
+		border-radius: 60px;
+	}
+}
+.myimage{
+	height: 0px;
+	width: 0px;
+	margin-right: 5%;
+	margin-bottom: 5px;
+}
+.heading{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin: 30px 0px;
+	font-size: 40px;
+	color: purple;
+  text-align: center;
+}
+.carrerobj{
+	padding: 30px;
+}
+.carrer-info{
+	text-align: justify;
+	font-size: 20px;
+	color: purple;
+	line-height: 40px;
+	text-indent: 100px;
+	word-spacing: 7px;
+	letter-spacing: 1px;
+	/* text-align: right; */
+}
+
+/* css for skills */
+
+#skills{
+	height: 690px;
+	width: 100%;
+	margin-top: 30px;
+	background-color: lavenderblush;
+	padding: 20px;
+	/* border: 5px solid red; */
+}
+.tb1{
+	margin-left: 5%;
+	border-spacing: 20px;
+}
+.tb1 tr td{
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px royalblue;
+	transition-duration: 1.5px;
+	
+}
+.skills-subheading {
+	color: purple;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	font-variant: small-caps;
+
+}
+.detailed-skills{
+	font-size: 20px;
+	font-weight: bolder;
+	color: darkblue;
+	line-height: 40px;
+	word-spacing: 3px;
+	margin-top: 20px;
+}
+/*table{
+	border-collapse: separate;
+}*/
+
+/* css for project */
+.portfolio-section
+{
+	margin-top: 20px;
+	height: 700px;
+	background-color: lavenderblush;
+	
+}
+#Project{
+	height: 700px;
+	width: 100%;
+	padding: 30px;
+}
+.project-card-container
+{
+	padding: 20px;
+	margin-top: 20px;
+}
+.heading{
+	color: purple;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 35px;
+}
+.card-title{
+	color: purple;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bolder;
+}
+.card-title:hover{
+	text-decoration:underline 2px solid navy;
+	text-underline-offset: 5px;
+	cursor: pointer;
+	
+}
+
+
+.card-text{
+	text-align: justify;
+	text-size-adjust: 20px;
+}
+.contact-childe{
+	height: 400px;
+	width: 50%;
+}
+.card-img-top
+{
+	height: 300px;
+	width: 350px;
+	padding-left:10%;
+	transition-duration: 1s;
+}
+.card-img-top:hover{
+	transform: scale(1.1);
+}
+.card-img-top1
+{
+	height: 250px;
+	width: 300px;
+	padding-left:5%;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	transition-duration: 1s;
+}
+.card-img-top1:hover{
+	transform: scale(1.1);
+}
+.card-img-top2
+{
+	height: 250px;
+	width: 300px;
+	padding-left:5%;
+	margin-left: 20px;
+	margin-top: 15px;
+	transition-duration: 1s;
+}
+.card-img-top2:hover{
+	transform: scale(1.1);
+}
+.card{
+	width: 500px;
+}
+.card-deck{
+	height: 400px;
+	
+}
+
+/* css for contact */
+
+#Contact{
+	height: 600px;
+	width: 100%;
+	background-color: lavenderblush;
+	padding: 10px;
+		margin-top: 30px;
+}
+.main1-container{
+	height: 400px;
+	width: 80%;
+	display: flex;
+	margin-left: 10%;
+	
+}
+.contact-child{
+	height: 400px;
+	width: 50%;
+}
+.contact-info{
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-top: 50px;
+	text-align: left;
+}
+.contact-info li{
+	margin-top: 25px;
+	color: purple;
+}
+
+
+.contact-form{
+	padding: 5px;
+	padding-left: 70px;
+	margin-top: 20px;
+	border-radius: 8px purple;
+}
+
+.btn-primary{
+	color: white;
+	border-radius: 10px;
+	transition-duration: 1s;
+	background-color: purple;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: purple;
+    border: 3px solid purple;
+   
+    transform: scale(1.1);
+}
+
+.form-group{
+	margin-bottom: 10px;
+	color: purple;
+	font-size: 20px;
+	border-radius: 10px  purple;
+
+
+
+}
+
+.form-control{
+	border-radius: 50px;
+	border: 2px purple;
+}
+
+
+
+/* css for footer */
+
+
+footer {
+	background-color: purple; 
+	color: white; 
+	padding: 10px; 
+	text-align: center; 
+	position: fixed; 
+	width: 100%; 
+	bottom: 0; 
+	height: 30px;
+}
